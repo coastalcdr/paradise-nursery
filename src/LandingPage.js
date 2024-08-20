@@ -8,7 +8,7 @@ const LandingPage = () => {
       <div className="background-image"></div>
       <div className="content">
         <h1>Paradise Nursery</h1>
-        <p>Welcome to Paradise Nursery</p>
+        <p>Welcome to Paradise Plants</p> 
         <Link to="/products" className="get-started-button">Get Started</Link>
       </div>
     </div>
