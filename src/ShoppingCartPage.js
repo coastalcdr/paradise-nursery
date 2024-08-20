@@ -32,7 +32,7 @@ const ShoppingCartPage = ({ cartItems, onRemoveFromCart, onClearCart }) => {
       <div className="cart-summary">
         <h2>Total Cost: ${totalCost.toFixed(2)}</h2>
         <button className="checkout-button" onClick={handleCheckout}>Checkout</button>
-        <a href="/products" className="continue-shopping-button">Continue Shopping</a>
+        <a href="/products" className="button-link continue-shopping-button">Continue Shopping</a>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: rgba(255, 105, 180, 1);
   }
   
   .background-image {
@@ -30,7 +30,7 @@
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: rgba(255, 105, 180, 0.7); 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -38,6 +38,6 @@
   }
   
   .get-started-button:hover {
-    background-color: #218838;
+    background-color: rgba(255, 105, 180, 1); 
   }
   

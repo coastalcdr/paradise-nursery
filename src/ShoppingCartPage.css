@@ -41,7 +41,7 @@
   .cart-item-quantity button {
     padding: 5px 10px;
     margin: 0 10px;
-    background-color: #28a745;
+    /* background-color: #28a745; */
     color: white;
     border: none;
     border-radius: 5px;
@@ -55,7 +55,7 @@
   
   .remove-button {
     padding: 10px 20px;
-    background-color: #dc3545;
+    /* background-color: #dc3545; */
     color: white;
     border: none;
     border-radius: 5px;
@@ -75,7 +75,6 @@
   .continue-shopping-button {
     padding: 10px 20px;
     margin: 10px;
-    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
@@ -83,8 +82,8 @@
     transition: background-color 0.3s ease;
   }
   
-  .checkout-button:hover,
+  /* .checkout-button:hover,
   .continue-shopping-button:hover {
     background-color: #0056b3;
-  }
+  } */
   
