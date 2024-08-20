@@ -1,14 +1,16 @@
 import React from 'react';
 import './ProductListingPage.css'; 
+import aloeVeraImage from './assets/images/aloe-vera.jpg';
+import lavenderImage from './assets/images/lavender.jpg';
 
-const ProductListingPage = () => {
+const ProductListingPage = ({ onAddToCart }) => {
   const products = [
     {
       id: 1,
       name: 'Aloe Vera',
       description: 'Aloe Vera is a medicinal plant.',
       price: 15,
-      image: 'aloe-vera.jpg',
+      image: aloeVeraImage,
       category: 'Medicinal Plants'
     },
     {
@@ -16,10 +18,9 @@ const ProductListingPage = () => {
       name: 'Lavender',
       description: 'Lavender is an aromatic plant.',
       price: 10,
-      image: 'lavender.jpg',
+      image: lavenderImage,
       category: 'Aromatic Plants'
     },
-    // Add more plant objects here
   ];
 
   return (
@@ -32,7 +33,7 @@ const ProductListingPage = () => {
             <h2>{product.name}</h2>
             <p>{product.description}</p>
             <p>${product.price}</p>
-            <button>Add to Cart</button>
+            <button onClick={() => onAddToCart(product)}>Add to Cart</button>
           </div>
         ))}
       </div>
